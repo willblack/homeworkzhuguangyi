@@ -1,0 +1,62 @@
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  background-color: #eee;
+}
+body .nav {
+  height: 60px;
+  line-height: 60px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+body .nav > div {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 60px;
+  vertical-align: top;
+}
+body .nav .pai {
+  display: inline-block;
+}
+body .nav .pai li {
+  float: left;
+  font-size: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+body .nav .pai li:hover {
+  background-color: #22f2f2;
+}
+body .cardList ul {
+  background-color: #eee;
+  width: 100%;
+  height: 1000px;
+}
+body .cardList ul li {
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  float: left;
+  width: 18%;
+  margin-right: 2.5%;
+  padding-left: 10px;
+}
+body .cardList ul li img {
+  width: 100%;
+}
+body .cardList ul li h3 {
+  font-size: 20px;
+  line-height: 50px;
+}
+body .cardList ul li p {
+  font-size: 20px;
+  line-height: 60px;
+}
+body .cardList ul li:nth-child(5n) {
+  margin-right: 0px;
+}
