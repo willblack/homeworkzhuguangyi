@@ -1,0 +1,7 @@
+.collapse navbar-collapse{
+    
+    @media (min-width: 400px){
+        display:flex !important;
+        flex-basis:auto;
+    }
+}

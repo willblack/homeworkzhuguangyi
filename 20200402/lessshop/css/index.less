@@ -1,0 +1,53 @@
+.main{
+    width: 1200px;
+    margin: auto;
+}
+.body{
+    background-color: #ddd;
+    .nav{
+        height: 60px;
+        background-color: #ffffff;
+        >h3{
+            margin-left: 30px;
+            float: left;
+            font-size: 20px;
+            line-height: 60px;
+            margin-right: 20px;
+        }
+        ul{
+            li{
+                font-size: 14px;
+                line-height: 60px;
+                float: left;
+                margin-left: 20px;
+                color: #8c8c8c;
+                cursor: pointer;
+            }
+            li.action{
+                color: black;
+                font-size: 16px;
+            }
+        }
+    }
+    .cardBox{
+        .card{
+            background-color: #ffffff;
+            margin-top: 10px;
+            width: 18%;
+            box-sizing: border-box;
+            margin-right: 2.5%;
+            float: left;
+            img{
+                width: 100%;
+            }
+            .information{
+                padding: 10px;
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
+        .card:nth-child(5n){
+            margin-right: 0px;
+        }
+    }
+}
