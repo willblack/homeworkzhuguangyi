@@ -1,0 +1,33 @@
+html {
+  font-size: 100px;
+}
+html body .main {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #f3f6fe;
+}
+html body .water {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+html body .water .fall {
+  width: 22%;
+  background-color: white;
+  border: 1% solid yellow;
+  box-sizing: border-box;
+  font-size: 0.16rem;
+  margin-top: 0.1rem;
+}
+html body .water .fall .imageBox {
+  text-align: center;
+}
+html body .water .fall .imageBox img {
+  width: 100%;
+}
+html body .water .fall p {
+  font-size: 0.18rem;
+  line-height: 0.24rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
