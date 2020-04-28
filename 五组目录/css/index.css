@@ -1,0 +1,32 @@
+html {
+  font-size: 100px;
+  list-style: none;
+}
+html body {
+  background: url(../images/bodyBackground.jpg) center center no-repeat;
+  background-size: cover;
+}
+html body .nav {
+  float: left;
+  margin-left: 0.4rem;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+}
+html body .nav .navMenu {
+  width: 100%;
+  height: 7rem;
+}
+html body .nav .navMenu > li {
+  text-align: center;
+  font-size: 0.2rem;
+  height: 1rem;
+  width: 100%;
+  line-height: 1rem;
+  margin-bottom: 0.13rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+html body .nav .navMenu > li .hide {
+  display: none;
+}
